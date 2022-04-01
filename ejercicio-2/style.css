@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100%;
+    background-color: white;
+    flex-direction: column;
+    padding: 20px ;
+    justify-content: center;
+    
+
+}
+
+.titulo{
+    display: flex;
+    align-items:center;
+    border: 2px solid #00F;
+    padding-left:5px;
+    margin: 5px;
+    
+}
+
+.encabezado1, .encabezado2, .encabezado3 {
+    display: flex;
+    align-items: center;
+    border: 2px solid #AAA;
+    padding-left: 5px;
+    margin: 15px 5px 5px 5px;
+}
+.lista, .lista1{
+    display: flex;
+    align-items: center;
+    border: 2px solid #0f0;
+    padding-left: 30px;
+    margin: 5px;
+    line-height: 20px;
+}
+
+.sub{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    line-height: 20px;
+
+}

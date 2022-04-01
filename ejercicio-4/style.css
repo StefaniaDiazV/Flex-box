@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    font-family: Arial , verdana;
+}
+
+.title{
+    display: flex;
+    font-family: Georgia;
+    font-size: 32px;
+    font-variant: small-caps;
+    margin: 10px;
+}
+section{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 24px;
+    font-style: italic;
+    font-variant: small-caps;
+    margin: 10px;
+}
+span{
+    font-weight: bold;
+}
+
+.list1, .list3{
+    margin-left: 40px;
+}
+
+.list2{
+    margin-left: 20px;
+}
+
+.el{
+    text-decoration: none;
+    font-weight: normal;
+}
